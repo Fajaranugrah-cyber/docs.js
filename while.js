@@ -1,17 +1,11 @@
-let numberLokal = 1;
+let dataNuberWhil = 10;
 
-while(numberLokal < 10){
-    console.log(numberLokal)
-    numberLokal++
-}
+while (dataNuberWhil < 20) {
+    console.log(dataNuberWhil);
+    dataNuberWhil++;
+};
 
-// do {
-//     console.log(numberLokal)
-//     numberLokal++
-// } while (numberLokal > 10)
-
-let numberOne = 10;
-while(numberLokal < 20){
-    console.log(numberOne)
-    numberOne++
-}
+do {
+    console.log(dataNuberWhil);
+    dataNuberWhil++;
+}while(dataNuberWhil > 0);

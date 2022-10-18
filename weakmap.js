@@ -1,21 +1,19 @@
-// let  visitCount = new Map(); //mnyimpan daftar user
+let  visitCount = new Map(); //mnyimpan daftar user
 
-// function countUser(user) {
-//     let count = visitCount.get(user) || 0;
-//     visitCount.set(user, count  +  1);
-// }
+function countUser(user) {
+    let count = visitCount.get(user) || 0;
+    visitCount.set(user, count  +  1);
+}
 
-// let jonas = {name : 'fajar'};
-// countUser(jonas) //menmabha user jonnes
+let jonas1 = {name : 'fajar'};
+countUser(jonas1) //menmabha user jonnes
 
-// jonas = null //data variabel jonas dihapus\\
-// setTimeout (function(){
-//     console.log(visitCount)
-// }, 0.1)
+jonas = null //data variabel jonas dihapus\\
+setTimeout (function(){
+    console.log(visitCount)
+}, 0.1)
 
-
-//weakmap
-
+// weakmap 
 const { inspect } = require('util');
 
 let visitsCountMap = new WeakMap(); // Menyimpan daftar user
